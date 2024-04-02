@@ -235,7 +235,7 @@ $time_left_formatted = sprintf('%d Ngày %d Giờ %d Phút %d Giây', $days, $ho
                     ?>
                         <div class="p-1">
                             <label class="btn btn-outline-success size-btn">
-                                <?php echo preg_replace('/\D/', '', $size_name); ?>
+                                <?php echo  $size_name; ?>
                                 <input type="hidden" name="selectedSize" value="<?php echo $size_id; ?>">
                             </label>
                         </div>

@@ -27,12 +27,6 @@ function generateCode()
 
 include('../../common/config/Connect.php');
 
-//Handle login with google
-include('../../common/GoogleLogin.php');
-
-
-//Handle login with fb
-include('../../common/facebook_source.php');
 
 $username = '';
 $password  = '';
@@ -200,7 +194,7 @@ if (isset($_POST['login']) && isset($_POST['username']) && isset($_POST['passwor
                         <?php } ?>
 
                     </div>
-                    <span> Hoặc đăng nhập bằng tài khoản sẵn có</span>
+                    
                     <label>
                         <input required name="username" type="text" placeholder="Tên tài khoản" />
                     </label>
