@@ -194,7 +194,7 @@ if (isset($_POST['login']) && isset($_POST['username']) && isset($_POST['passwor
                         <?php } ?>
 
                     </div>
-                    
+            
                     <label>
                         <input required name="username" type="text" placeholder="Tên tài khoản" />
                     </label>
