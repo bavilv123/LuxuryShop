@@ -1,10 +1,8 @@
--- drop database if exists shoesland;
-
--- create database shoesland;
--- use shoesland;
 drop database if exists luxuryshop;
+
 create database luxuryshop;
 use luxuryshop;
+
 create table tbl_payment_type (
   id varchar(150) primary key not null,
   name varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,

@@ -119,7 +119,7 @@ if (isset($_POST['login']) && isset($_POST['username']) && isset($_POST['passwor
 <html lang="en">
 
 <head>
-    <title>SHOESLAND</title>
+    <title>LuxuryShop</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="./images/logo.svg">

@@ -44,7 +44,7 @@ function GuiMail($email, $content, $username) {
     $mail->Password = 'ktnr mdiu ccwp pvzg';   // SMTP password
     $mail->SMTPSecure = 'ssl';  // encryption TLS/SSL 
     $mail->Port = 465;  // port to connect to                
-    $mail->setFrom('shopshoesland@gmail.com', 'ShoesLandShop'); 
+    $mail->setFrom('shopshoesland@gmail.com', 'LuxuryShop'); 
     $mail->addAddress($email, $username); // mail và tên người nhận  
     $mail->isHTML(true);  // Set email format to HTML
     $mail->Subject = 'Shop giày ShoesLand kính gửi bạn!';
@@ -144,7 +144,7 @@ if (isset($_POST['confirm'])) {
 
     GuiMail($email, $content, $username);
     header('Location: ../../user/userCommon/UserIndex.php?usingPage=mail');
-    
+
     
     ob_end_flush();
 }
