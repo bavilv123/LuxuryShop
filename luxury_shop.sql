@@ -20,19 +20,19 @@ create table tbl_size (
   name varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   description LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-insert into tbl_size values ('a1b14f82-848e-11ee-b962-0242ac120002', 'S35', 'Cỡ XS', 'Đây thường là những size dành cho người có bàn chân nhỏ và nhẹ. Size 35 thường là size phổ biến cho giày dành cho nữ.');
-insert into tbl_size values ('2dd58a8c-848f-11ee-b962-0242ac120002', 'S150', 'Cỡ S', 'Đây thường là những size dành cho người có bàn chân nhỏ và nhẹ. Size 150 thường là size phổ biến cho giày dành cho nữ.');
-insert into tbl_size values ('35a34d94-848f-11ee-b962-0242ac120002', 'S37', 'Cỡ 37', 'Đây thường là những size dành cho người có bàn chân nhỏ và nhẹ. Size 37 thường là cho cả nam và nữ.');
-insert into tbl_size values ('3cb72b14-848f-11ee-b962-0242ac120002', 'S38', 'Cỡ 38', 'Đây thường là những size dành cho người có bàn chân nhỏ và nhẹ. Size 38 thường là cho cả nam và nữ.');
-insert into tbl_size values ('45ef4fc2-848f-11ee-b962-0242ac120002', 'S39', 'Cỡ 39', 'Đây thường là những size dành cho người có bàn chân nhỏ và nhẹ. Size 39 thường là cho cả nam và nữ.');
-insert into tbl_size values ('4c309e18-848f-11ee-b962-0242ac120002', 'S40', 'Cỡ 40', 'size này phổ biến cho người có bàn chân vừa đến lớn. Size 40 thường là size trung bình, phù hợp cho nhiều người.');
-insert into tbl_size values ('525d7ba8-848f-11ee-b962-0242ac120002', 'S41', 'Cỡ CH', 'size này phổ biến cho người có bàn chân vừa đến lớn. Size 41 thường là size trung bình, phù hợp cho nhiều người.');
-insert into tbl_size values ('59ad58ce-848f-11ee-b962-0242ac120002', 'S42', 'Cỡ XXL', 'Size giày 42 là một lựa chọn lớn hơn và thường phù hợp với những người có chân to hoặc mong muốn sự thoải mái và không gian trong giày.');
-insert into tbl_size values ('5f2518c8-848f-11ee-b962-0242ac120002', 'S43', 'Cỡ 43', 'Size giày 43 là một lựa chọn lớn hơn và thường phù hợp với những người có chân to hoặc mong muốn sự thoải mái và không gian trong giày.');
-insert into tbl_size values ('6bfdd788-848f-11ee-b962-0242ac120002', 'S44', 'Cỡ 44', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 44 thường là phổ biến cho nam giới.');
-insert into tbl_size values ('72d16070-848f-11ee-b962-0242ac120002', 'S45', 'Cỡ XM', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 45 thường là phổ biến cho nam giới.');
-insert into tbl_size values ('78150460c-848f-11ee-b962-0242ac120002', 'S46', 'Cỡ 46', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 46 thường là cho những người có bàn chân cực kỳ lớn.');
-insert into tbl_size values ('809a4cf8-848f-11ee-b962-0242ac120002', 'S47', 'Cỡ 47', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 47 thường là cho những người có bàn chân cực kỳ lớn.');
+insert into tbl_size values ('a1b14f82-848e-11ee-b962-0242ac120002', 'SXS', 'Cỡ XS', 'Đây là size XS');
+insert into tbl_size values ('2dd58a8c-848f-11ee-b962-0242ac120002', 'SS', 'Cỡ S', 'Đây là size S');
+insert into tbl_size values ('35a34d94-848f-11ee-b962-0242ac120002', 'SM', 'Cỡ M', 'Đây là size M');
+insert into tbl_size values ('3cb72b14-848f-11ee-b962-0242ac120002', 'SL', 'Cỡ L', 'Đây là size L');
+insert into tbl_size values ('45ef4fc2-848f-11ee-b962-0242ac120002', 'SXL', 'Cỡ XL', 'Đây là size XL');
+insert into tbl_size values ('4c309e18-848f-11ee-b962-0242ac120002', 'SXXL', 'Cỡ XXL', 'Đây là size XXL');
+insert into tbl_size values ('525d7ba8-848f-11ee-b962-0242ac120002', 'SXXXL', 'Cỡ XXXL', 'Đây là size XXXL');
+-- insert into tbl_size values ('59ad58ce-848f-11ee-b962-0242ac120002', 'S42', 'Cỡ XXL', 'Size giày 42 là một lựa chọn lớn hơn và thường phù hợp với những người có chân to hoặc mong muốn sự thoải mái và không gian trong giày.');
+-- insert into tbl_size values ('5f2518c8-848f-11ee-b962-0242ac120002', 'S43', 'Cỡ 43', 'Size giày 43 là một lựa chọn lớn hơn và thường phù hợp với những người có chân to hoặc mong muốn sự thoải mái và không gian trong giày.');
+-- insert into tbl_size values ('6bfdd788-848f-11ee-b962-0242ac120002', 'S44', 'Cỡ 44', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 44 thường là phổ biến cho nam giới.');
+-- insert into tbl_size values ('72d16070-848f-11ee-b962-0242ac120002', 'S45', 'Cỡ XM', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 45 thường là phổ biến cho nam giới.');
+-- insert into tbl_size values ('78150460c-848f-11ee-b962-0242ac120002', 'S46', 'Cỡ 46', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 46 thường là cho những người có bàn chân cực kỳ lớn.');
+-- insert into tbl_size values ('809a4cf8-848f-11ee-b962-0242ac120002', 'S47', 'Cỡ 47', 'Size này thường dành cho những người có bàn chân lớn và mạnh mẽ. Size 47 thường là cho những người có bàn chân cực kỳ lớn.');
 
 create table tbl_category (
   id varchar(150) primary key not null, 
