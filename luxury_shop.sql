@@ -43,16 +43,14 @@ create table tbl_category (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO tbl_category (id, code, name, category_image , description) VALUES
-('a4f18b20-7b62-4c88-8b03-3a9c1c2d5eab', 'NIKE', 'Nike','nikecategory.jpg', 'Nike là một trong những thương hiệu thể thao nổi tiếng toàn cầu, được biết đến với việc sản xuất và phân phối đa dạng sản phẩm thể thao và thời trang.'),
-('582d296d-37f7-4b0e-81ca-ff311581c2b6','ADIDAS','Adidas','adidas.png','Giày Adidas là một dòng sản phẩm giày thể thao và thời trang của thương hiệu Adidas, một trong những nhãn hiệu nổi tiếng hàng đầu trên thế giới. Adidas đã tạo ra nhiều mẫu giày khác nhau, phục vụ nhu cầu của người tiêu dùng từ các hoạt động thể thao đến thời trang hàng ngày.'),
-('1ab78998-fa75-4abb-b937-4e59a483c171','CONVERSE','Converse','Converse.png','Giày Converse là những đôi giày thể thao mang đậm phong cách retro và văn hóa đô thị. Dòng giày nổi tiếng nhất của Converse là Chuck Taylor All Star, một biểu tượng thời trang đã tồn tại từ những năm 1920 và trở thành một trong những mẫu giày phổ biến nhất trên thế giới.'),
-('aa3166a2-6534-40a1-a1a6-cc6839cfa666','JORDAN','Jordan','jordan.png','Giày Jordan là một dòng sản phẩm giày thể thao và thời trang của thương hiệu Jordan Brand, một phần của tập đoàn Nike. Dòng giày này được đặt tên theo huyền thoại bóng rổ Michael Jordan, người đã trở thành một trong những cầu thủ xuất sắc nhất trong lịch sử môn thể thao này.'),
-('9a4ab55e-3844-4d25-b20a-893b1bf7c980','MLB','Mlb','MLB.png','Mẫu giày được ưa chuộng trong giới baseball, được sử dụng trong các trận đấu Major League Baseball (MLB) hoặc được thiết kế với phong cách và ý tưởng liên quan đến bóng chày.'),
-('31895546-7989-4d6b-b45e-dd2007da913c7','NEW BALANCE','New Balance','newbalance.png','Giày New Balance là sản phẩm của thương hiệu giày thể thao New Balance, một trong những nhãn hiệu nổi tiếng và đáng tin cậy trên thế giới.'),
-('31c124fe-dfdf-4777-aecb-895449fc3cbe','PUMA','Puma','puma.png','Puma là một trong những thương hiệu giày và thể thao hàng đầu trên thế giới, có trụ sở chính tại Herzogenaurach, Đức.'),
-('99d98fa2-5448-4245-ab31-1fdc94cd727d','TODS','Tods','tods.png','Tods là một thương hiệu thời trang và giày dép cao cấp có trụ sở tại Ý, nổi tiếng với việc sản xuất giày da chất lượng cao và các sản phẩm thời trang sang trọng.'),
-('90261ccc-7523-46c4-a200d-bf444c6ef699','VANS','Vans','vans.png','Vans là một thương hiệu giày và thời trang đường phố nổi tiếng, xuất phát từ California, Hoa Kỳ. Đặc biệt là với dòng giày skate và lifestyle.'),
-('3e1b10c3-9fce-4e00-8304-8200cefb45b55','YEEZY','Yeezy','yeezy.png','Yeezy là kết quả của sự hợp tác giữa Kanye West và Adidas, một trong những thương hiệu thể thao hàng đầu trên thế giới. Sự kết hợp giữa tầm nhìn sáng tạo của Kanye West và kỹ thuật sản xuất của Adidas đã tạo ra các sản phẩm độc đáo và độc lập.');
+('1ab78998-fa75-4abb-b937-4e59a483c171', 'CONVERSE', 'Converse', 'Converse.png', 'This is Converse'),
+('31895546-7989-4d6b-b45e-dd2007da913c7', 'DSQUARED2', 'Dsquared2', 'Dsquared2.png', 'This is Dsquared2'),
+('582d296d-37f7-4b0e-81ca-ff311581c2b6', 'ADIDAS', 'Adidas', 'adidas.png', 'This is Adidas'),
+('90261ccc-7523-46c4-a200d-bf444c6ef699', 'NERDY', 'Nerdy', 'Nerdy.png', 'This is Nerdy'),
+('99d98fa2-5448-4245-ab31-1fdc94cd727d', 'COACH', 'Coach', 'Coach.png', 'This is Coach'),
+('9a4ab55e-3844-4d25-b20a-893b1bf7c980', 'MLB', 'Mlb', 'MLB.png', 'This is MLB'),
+('a4f18b20-7b62-4c88-8b03-3a9c1c2d5eab', 'NIKE', 'Nike', 'nikecategory.jpg', 'This is Nike'),
+('aa3166a2-6534-40a1-a1a6-cc6839cfa666', 'ZARA', 'Zara', 'Zara.png', 'This is Zara');
 
 create table tbl_event (
   id varchar(150) primary key not null,
