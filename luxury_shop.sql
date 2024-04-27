@@ -78,9 +78,9 @@ insert into tbl_event values ('11afef6c-bff6-432b-82eb-d44ba44743e2','2023-02-08
 create table tbl_product (
   id varchar(150) primary key not null,
   code varchar(1200) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  name varchar(1200) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  description LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  price float,
+  -- name varchar(1200) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  -- description LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  -- price float,
   createDate datetime,
   category_id varchar(1150) not null,
   event_id varchar(1150)
