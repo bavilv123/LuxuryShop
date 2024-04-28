@@ -40,14 +40,14 @@ function GuiMail($email, $content, $username) {
     $mail->CharSet  = "utf-8";
     $mail->Host = 'smtp.gmail.com';  // SMTP servers
     $mail->SMTPAuth = true; // Enable authentication
-    $mail->Username = 'shopshoesland@gmail.com'; // SMTP username
-    $mail->Password = 'ktnr mdiu ccwp pvzg';   // SMTP password
+    $mail->Username = 'luxuryshopTTCN@gmail.com'; // SMTP username
+    $mail->Password = 'ihta rouk cqvv ewbd';   // SMTP password
     $mail->SMTPSecure = 'ssl';  // encryption TLS/SSL 
     $mail->Port = 465;  // port to connect to                
     $mail->setFrom('shopshoesland@gmail.com', 'LuxuryShop'); 
     $mail->addAddress($email, $username); // mail và tên người nhận  
     $mail->isHTML(true);  // Set email format to HTML
-    $mail->Subject = 'Shop giày ShoesLand kính gửi bạn!';
+    $mail->Subject = 'Shop quần áo Luxury kính gửi bạn!';
     $noidungthu = 'Đơn hàng của bạn'; 
     $mail->Body = $content;
     $mail->smtpConnect( array(

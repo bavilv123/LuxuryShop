@@ -1,5 +1,5 @@
 <div class="footer text-right">
     <div class="container p-2 flex-center justify-right py-4">
-        <p class="m-0">Group 11 - PHP</p>
+        <p class="m-0">Group 8_TTCN</p>
     </div>
 </div>

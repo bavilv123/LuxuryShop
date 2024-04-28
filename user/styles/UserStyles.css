@@ -187,7 +187,7 @@ span i.fa-star {
 
 
 .footer {
-    background: linear-gradient(3500deg, #0be04f, #007306) no-repeat 0 0 / cover;
+    background: linear-gradient(3500deg, #996633, #663300) no-repeat 0 0 / cover;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -195,7 +195,7 @@ span i.fa-star {
 
 /* refactored header code */
 .header {
-    background: linear-gradient(170deg, #0be04f, #007306) no-repeat 0 0 / cover;
+    background: linear-gradient(3500deg, #996633, #663300) no-repeat 0 0 / cover;
     /* position: fixed; */
     z-index: 100;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
